@@ -15,9 +15,8 @@ publishDir = "docs"
 [params.hero]
   img = "images/StartpageLightOnEurope.svg"
   title = "Exploring Your Europe"
-  #description = "Geographical insights into Europe's regions with LightOnEurope<br/><br/><br/><a href='#' class='btn btn-primary btn-outline btn-hero'>Launch App</a>"
-  description = "Geographical insights into Europe's regions with LightOnEurope"
-# Navigation section
+  description = "Geographical insights into Europe's regions with LightOnEurope<br/><br/><br/><a href='#' class='btn btn-primary btn-outline btn-hero'>Launch App (Coming Soon)</a>"
+  # Navigation section
 [params.nav]
   mission = "Background"
   services = "Service"
@@ -66,8 +65,8 @@ publishDir = "docs"
 # Services section
 [params.services]
   enable = true
-  video = false
-  vidlink = "https://vimeo.com/channels/staffpicks/93951774"
+  video = true
+  vidlink = "https://vimeo.com/242987075"
   title = "Service"
   description = ""
 
