@@ -1,0 +1,185 @@
+# Main config file for icon theme.
+theme = "hugo-icon"
+baseURL = "https://bufferclip.github.io/lightoneurope-website/"
+# languageCode = "en-AU"
+title = "LightOnEurope"
+
+publishDir = "docs"
+
+# Metadata
+[params]
+  author = "Jakob Miksch, Martin Sudmanns, Karina Krampf"
+  # description = "Awesome People"
+
+# Hero section (from here on is for icon theme)
+[params.hero]
+  img = "images/StartpageLightOnEurope.svg"
+  title = "Exploring Your Europe"
+  #description = "Geographical insights into Europe's regions with LightOnEurope<br/><br/><br/><a href='#' class='btn btn-primary btn-outline btn-hero'>Launch App</a>"
+  description = "Geographical insights into Europe's regions with LightOnEurope"
+# Navigation section
+[params.nav]
+  mission = "Background"
+  services = "Service"
+  team = "Team"
+  contact = "Contact"
+  # Include logo instead if HOME:
+  # logo = "path/to/logo"
+
+# Mission section
+[params.mission]
+  enable = true
+
+  [params.mission.images]
+    enable = false
+
+    [[params.mission.images.list]]
+      img = "images/img_3.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_2.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_1.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_4.jpg"
+
+  [[params.mission.item]]
+    weight = 1
+    name = "lightoneurope"
+    title = "LightOnEurope"
+    subtitle = "LightOnEurope provides location intelligence for Europe's geographical regions - defined by its own citizen."
+    description = "<p>Draw a polygon on the map and get tailored statistics about the region inside. There is no need to think about national boarders or size and location. Find out anything you want to know about population, infrasturicture, landcover and so on. You decide, we provide you the information.</p>"
+
+  [[params.mission.item]]
+    weight = 2
+    name = "geography"
+    title = "Geography"
+    subtitle = "Almost every political, economic and social decision is about geography."
+    description = "<p>Geogphical space can be your physical environment, space can be a social construction like Pierre Bourdieu once wrote. Therefore, knowledge about space is power and maps are the most powerful and compelling tools to communicate geographical data.</p><p>So why not provide the power of maps and information to everyone?</p>"
+
+  [[params.mission.item]]
+    weight = 3
+    name = "opendata"
+    title = "Open Data"
+    subtitle = "In the Big Data era Open Data become the backbone a whole data-centric ecocomy."
+    description = "<p>Open Data can be used for the benefit of everyone. LightOnEurope gives the open and free access to Big Data.</p>"
+
+# Services section
+[params.services]
+  enable = true
+  video = false
+  vidlink = "https://vimeo.com/channels/staffpicks/93951774"
+  title = "Service"
+  description = ""
+
+  [[params.services.item]]
+    icon = "icon-map"
+    title = "Explore Europe's Regions"
+    description = "Get the information you need"
+
+  [[params.services.item]]
+    icon = "icon-bulb"
+    title = "Learn about Europe"
+    description = "Find out new things about Europe's regions (coming soon)"
+
+  [[params.services.item]]
+    icon = "icon-paper-plane"
+    title = "Build your app"
+    description = "Use our API to bild your own App (coming soon)"
+
+# Work section
+[params.work]
+  enable = false
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_1.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_4.jpg"
+
+# Team section
+[params.team]
+  enable = true
+  title = "Nice to meet you"
+  description = "We are currently a team of three Geographers."
+
+  [[params.team.item]]
+    name = "Jakob Miksch"
+    position = 'Developer'
+    description = ""
+    img = "images/person1.jpg"
+    #facebook = "#"
+    #twitter = "#"
+    #dribbble = "#"
+    #instagram = "#"
+    #github = "#"
+
+  [[params.team.item]]
+    name = "Karina Krampf"
+    position = "Concept and Design"
+    description = ""
+    img = "images/person2.jpg"
+    #facebook = "#"
+    #twitter = "#"
+    #dribbble = "#"
+    #instagram = "#"
+    #github = "#"
+
+  [[params.team.item]]
+    name = "Martin Sudmanns"
+    position = "Developer"
+    description = ""
+    img = "images/person3.jpg"
+    #facebook = "#"
+    #twitter = "#"
+    #dribbble = "#"
+    #instagram = "#"
+    #github = "#"
+
+
+# Contact section
+[params.contact]
+  enable = false
+  title = "Get In Touch"
+  message = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+# Footer section
+# Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
+[params.footer]
+  enable = true
+  note = "<p><small>&copy; 2016 Free HTML5 Template. All Rights Reserved. <br> Designed by <a href='http://freehtml5.co/' target='_blank'>FreeHTML5.co</a>. Hugo port by <a href='https://github.com/SteveLane/' target='_blank'>SteveLane</a></small></p>"
+  #github = "#"
+  twitter = "https://twitter.com/lightoneu"
