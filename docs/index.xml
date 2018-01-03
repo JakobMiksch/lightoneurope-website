@@ -2,10 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LightOnEurope</title>
-    <link>https://bufferclip.github.io/lightoneurope-website/</link>
+    <link>https://jakobmiksch.github.io/lightoneurope-website/</link>
     <description>Recent content on LightOnEurope</description>
     <generator>Hugo -- gohugo.io</generator>
-    <atom:link href="https://bufferclip.github.io/lightoneurope-website/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://jakobmiksch.github.io/lightoneurope-website/index.xml" rel="self" type="application/rss+xml" />
+    
     
   </channel>
 </rss>

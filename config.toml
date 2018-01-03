@@ -1,6 +1,6 @@
 # Main config file for icon theme.
 theme = "hugo-icon"
-baseURL = "https://bufferclip.github.io/lightoneurope-website/"
+baseURL = "https://jakobmiksch.github.io/lightoneurope-website/"
 # languageCode = "en-AU"
 title = "LightOnEurope"
 
